@@ -1,0 +1,131 @@
+
+
+      html {
+        background-color: #333;
+	min-width: 1680px;
+      }
+
+      p {
+        color: #f2f2f2;
+        margin-left: 16px;
+        margin-right: 16px;
+        text-align: center;
+        }
+
+      h1 {
+        color: #f2f2f2;
+        text-align: center;
+        background-color: #555;
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+
+      .video div {
+        padding: 2%;
+      }
+
+
+ 
+      #Logo { 
+        background-color: #555; 
+        height: 100%; 
+        position: center; 
+        top: 0; 
+        left: 0; 
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px; 
+      } 
+
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:50;
+      }
+ 
+ 
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: #333;
+        font-size: 20px;
+      }
+
+      li a {
+        display: block;
+        color: #f2f2f2;
+        padding: 8px 16px;
+        text-decoration: none;
+        text-align: center;
+      }   
+
+      li a.active {
+        background-color: darkred;
+        color: #f2f2f2;
+      }
+
+      li a:hover:not(.active) {
+        background-color: #555;
+        color: #f2f2f2;
+      }
+
+      address {
+	color: #f2f2f2;
+        text-align: center;
+        background-color: #555;
+        margin-top: 0px;
+        margin-bottom: 8px;
+        margin-left:40%;
+	margin-right:40%;
+      }
+
+/*      a:link { 
+	color: white;
+      }
+
+      a:hover {
+        color: darkred;
+      }
+
+      a:visited {
+        color: #f2f2f2;
+      }
+*/
+
+      footer {
+	float:none;
+        text-align:center;
+	background-color: #333;
+        color:#f2f2f2;
+	clear:both;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+      }
+
+
+	.sidenav {
+	  height: 100%;
+	  width: 200px;
+	  position: fixed;
+	  z-index: 1;
+	  top: 0;
+	  left: 0;
+	  background-color: #111;
+	  overflow-x: hidden;
+	  padding-top: 20px;
+		}
+	.sidenav a {
+	  padding: 6px 6px 6px 32px;
+	  text-decoration: none;
+	  font-size: 25px;
+	  color: #818181;
+	  display: block;
+		}
+	
+	.sidenav a:hover {
+	  color: #f1f1f1;
+	}
